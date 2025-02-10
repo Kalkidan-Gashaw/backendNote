@@ -64,7 +64,7 @@ app.post("/create-account", async (req, res) => {
         },
       });
       
-       const verificationLink = `https://frontednote.vercel.app/verify/?token=${token}`;
+       const verificationLink = `https://frontednote.onrender.com/verify/?token=${token}`;
      
        const mailOptions = {
          from: "gashawkalkidan700@gmail.com",
