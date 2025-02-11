@@ -16,7 +16,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors()); 
- // Restrict to specific origins
+ 
 
 mongoose
   .connect(config.connectionString)
